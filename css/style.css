@@ -719,12 +719,8 @@
 		#top .image
 		{
 			border-radius: 50%;
+			overflow: hidden;
 		}
-
-			#top .image img
-			{
-				border-radius: 50%;
-			}
 
 		#top p
 		{

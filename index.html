@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>alldrops</title>
+		<title>Andre Lopes</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -92,6 +92,10 @@
 										<li>Bootstrap</li>
 										<li>Grunt</li>
 										<li>SASS/LESS</li>
+										<li>AngularJS (learning)</li>
+										<li>All kinds of API's (Facebook, Twitter, Instagram, Google...)</li>
+										<li>SEO</li>
+										<li>MVC</li>
 										<li>Responsive Design</li>
 										<li>SQL Server</li>
 										<li>MySQL</li>
@@ -114,10 +118,13 @@
 									<h3>Personal Info</h3>
 									<ul>
 										<li>+3 years of web development experience</li>
+										<li>Degree in System Analysis and Development</li>
 										<li>Originally from Brazil but living in Vancouver, BC</li>
 										<li>Self-motivated</li>
 										<li>Self-taught</li>
+										<li>Quick learner</li>
 										<li>Challenge Lover</li>
+										<li>Hungry for learning new stuff</li>
 										<li>YouTuber Musician... <a target="_blank" href="http://youtube.com/alldropsmusic">wait, what??</a></li>
 									</ul>
 								</section>
@@ -149,6 +156,29 @@
 							</div>
 							<div class="4u">
 								<article class="box style2">
+									<a target="_blank" href="http://wundrbooks.com" class="image featured"><img src="images/thumb-wundr.png" alt="" /></a>
+									<h3><a target="_blank" href="http://wundrbooks.com">Wundr</a></h3>
+									<p>Responsive website developed while working at <a target="_blank" href="http://wundrbooks.com"></a>Wundr</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box style2">
+									<a target="_blank" href="http://www.victorematheus.com.br" class="image featured"><img src="images/thumb-vem.png" alt="" /></a>
+									<h3><a target="_blank" href="http://www.victorematheus.com.br">Victor &amp; Matheus</a></h3>
+									<p>Developed while working at <a target="_blank" href="http://www.icomp.com.br/">ICOMP</a></p>
+								</article>
+							</div>
+						</div>
+						<div class="row">
+							<div class="4u">
+								<article class="box style2">
+									<a target="_blank" href="http://www.allanrolim.com/centauro/" class="image featured"><img src="images/thumb-centauro.png" alt="" /></a>
+									<h3><a target="_blank" href="http://www.allanrolim.com/centauro/">Centauro</a></h3>
+									<p>iPad app developed while working at NBR</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box style2">
 									<a target="_blank" href="http://www.bruninhoedavi.com.br" class="image featured"><img src="images/thumb-bed.png" alt="" /></a>
 									<h3><a target="_blank" href="http://www.bruninhoedavi.com.br">Bruninho &amp; Davi</a></h3>
 									<p>Previous version of the website. Developed while working at <a target="_blank" href="http://www.icomp.com.br/">ICOMP</a></p>
@@ -156,8 +186,8 @@
 							</div>
 							<div class="4u">
 								<article class="box style2">
-									<a target="_blank" href="http://www.victorematheus.com.br" class="image featured"><img src="images/thumb-vem.png" alt="" /></a>
-									<h3><a target="_blank" href="http://www.victorematheus.com.br">Victor &amp; Matheus</a></h3>
+									<a target="_blank" href="http://familiaiml.com.br/" class="image featured"><img src="images/thumb-familiaiml.png" alt="" /></a>
+									<h3><a target="_blank" href="http://familiaiml.com.br/">Família IML</a></h3>
 									<p>Developed while working at <a target="_blank" href="http://www.icomp.com.br/">ICOMP</a></p>
 								</article>
 							</div>
@@ -180,7 +210,7 @@
 					<div>
 						<div class="row">
 							<div class="12u">
-								<form method="post" action="#">
+								<form method="post" action="" id="contact-form">
 									<div>
 										<div class="row">
 											<div class="6u">
@@ -190,11 +220,11 @@
 												<input type="text" name="email" id="email" placeholder="Email" />
 											</div>
 										</div>
-										<div class="row">
+										<!-- <div class="row">
 											<div class="12u">
 												<input type="text" name="subject" id="subject" placeholder="Subject" />
 											</div>
-										</div>
+										</div> -->
 										<div class="row">
 											<div class="12u">
 												<textarea name="message" id="message" placeholder="Message"></textarea>
@@ -203,7 +233,7 @@
 										<div class="row double">
 											<div class="12u">
 												<ul class="actions">
-													<li><input type="submit" value="Send Message" /></li>
+													<li><input type="submit" value="Send Message" id="send-form" /></li>
 													<!--<li><input type="reset" value="Clear Form" class="alt" /></li>-->
 												</ul>
 											</div>
@@ -241,11 +271,99 @@
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; AllDrops. All rights reserved.</li>
+							<li>&copy; Andre Lopes. All rights reserved.</li>
 						</ul>
 					</footer>
 				</article>
 			</div>
+			<script type="text/javascript">
 
+            $(function(){
+
+                function sendContact() {
+
+                    var htmlMail  = '<table border="0" cellpadding="5" cellspacing="0">';
+                        htmlMail +=     '<tbody>';
+                        htmlMail +=         '<tr>';
+                        htmlMail +=             '<td width="75" align="right" valign="top">';
+                        htmlMail +=                 '<font face="Arial" color="81848B" size="4">Name:</font>';
+                        htmlMail +=             '</td>';
+                        htmlMail +=             '<td width="500">';
+                        htmlMail +=                 '<font face="Arial" color="00ACEE" size="4">' + $('#name').val() + '</font>';
+                        htmlMail +=             '</td>';
+                        htmlMail +=         '</tr>';
+                        htmlMail +=         '<tr>';
+                        htmlMail +=             '<td align="right" valign="top">';
+                        htmlMail +=                 '<font face="Arial" color="81848B" size="4">Email:</font>';
+                        htmlMail +=             '</td>';
+                        htmlMail +=             '<td width="500">';
+                        htmlMail +=                 '<font face="Arial" color="00ACEE" size="4">' + $('#email').val() + '</font>';
+                        htmlMail +=             '</td>';
+                        htmlMail +=         '</tr>';
+                        htmlMail +=         '<tr>';
+                        htmlMail +=             '<td align="right" valign="top">';
+                        htmlMail +=                 '<font face="Arial" color="81848B" size="4">Message:</font>';
+                        htmlMail +=             '</td>';
+                        htmlMail +=             '<td width="500">';
+                        htmlMail +=                 '<font face="Arial" color="00ACEE" size="4">' + $('#message').val() + '</font>';
+                        htmlMail +=             '</td>';
+                        htmlMail +=         '</tr>';
+                        htmlMail +=     '</tbody>';
+                        htmlMail += '</table>';
+
+                    $.ajax({
+                        type: 'POST',
+                        url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+                        data: {
+                            'key': 'BxWSh8qb9I8bYK-cXyTTPA',
+                            'message': {
+                                'from_email': 'andre.22.lopes@gmail.com',
+                                'from_name': 'Website Contact',
+                                'html': htmlMail,
+                                'subject': 'Portfolio Website Contact',
+                                'autotext': 'true',
+                                'to': [
+                                    {
+                                        'email': 'andre.22.lopes@gmail.com',
+                                        'name': 'Andre Lopes',
+                                        'type': 'to'
+                                    }
+                                ]
+                            }
+                        }
+                    }).done(function(response) {
+                        //console.log(response); // if you're into that sorta thing
+                        if(response[0].status == 'sent') {
+                            $('.send-response').addClass('success');
+                            $('.send-response').html('Sent successfully!');
+
+                            $('#name').val('');
+                            $('#email').val('');
+                            $('#message').val('');
+
+
+                        } else {
+                            $('.send-response').addClass('error');
+                            $('.send-response').html('There was an error. Try again later.');
+                        }
+
+                    });
+                }
+                
+                $('#send-form').on('click', function(e){
+                    e.preventDefault();
+                    sendContact();
+                });
+
+                $('a#triggernav').click(function(){ 
+                    $('#top-navigation').toggleClass('shownav'); 
+                    $('#navigation').toggleClass('shownav'); 
+                    $('#header .searchform').toggleClass('hidenav'); 
+                    $(this).toggleClass('active'); 
+                    return false; 
+                }); 
+
+            });
+        	</script>
 	</body>
 </html>

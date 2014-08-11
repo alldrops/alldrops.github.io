@@ -124,6 +124,10 @@ p, ul, ol, dl, table {
 form {
 }
 
+form * {
+	outline: none;
+}
+
 form label {
 	color: #3e3e3e;
 	font-weight: 700;

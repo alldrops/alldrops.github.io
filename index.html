@@ -280,6 +280,22 @@
 
             $(function(){
 
+            	function validate() {
+
+                    var isValid = false;
+
+                    if($('#name').val() != '') 
+                        isValid = true;
+                    if($('#email').val() != '')
+                        isValid = true;
+                    if($('#message').val() != '')
+                        isValid = true;
+                    if($('#email').is(':invalid'))
+                        isValid = false
+
+                    return isValid;
+                }
+
                 function sendContact() {
 
                     var htmlMail  = '<table border="0" cellpadding="5" cellspacing="0">';
@@ -352,7 +368,10 @@
                 
                 $('#send-form').on('click', function(e){
                     e.preventDefault();
-                    sendContact();
+
+                    if(validate()) {
+                        sendContact();
+                    }
                 });
 
                 $('a#triggernav').click(function(){ 

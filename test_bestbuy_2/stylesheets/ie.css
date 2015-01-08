@@ -12,3 +12,29 @@
 .form {
   width: 40%;
 }
+
+/* line 15, ../sass/ie.scss */
+.row {
+  max-width: 1024px;
+}
+
+/* line 21, ../sass/ie.scss */
+.activities-list .icon img {
+  display: none;
+}
+/* line 25, ../sass/ie.scss */
+.activities-list .icon.camp-counselor {
+  background: url(../img/camp-counselor-ie.png) no-repeat center center transparent;
+}
+/* line 29, ../sass/ie.scss */
+.activities-list .icon.campfire-stories {
+  background: url(../img/campfire-stories-ie.png) no-repeat center center transparent;
+}
+/* line 33, ../sass/ie.scss */
+.activities-list .icon.first-aid {
+  background: url(../img/first-aid-ie.png) no-repeat center center transparent;
+}
+/* line 37, ../sass/ie.scss */
+.activities-list .icon.wildlife-spotting {
+  background: url(../img/wildlife-spotting-ie.png) no-repeat center center transparent;
+}

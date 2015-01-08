@@ -11,3 +11,31 @@
 .form {
 	width: 40%;
 }
+
+.row {
+	max-width: 1024px;
+}
+
+.activities-list {
+	.icon {
+		img {
+			display: none;
+		}
+
+		&.camp-counselor {
+			background: url(../img/camp-counselor-ie.png) no-repeat center center transparent;
+		}
+
+		&.campfire-stories {
+			background: url(../img/campfire-stories-ie.png) no-repeat center center transparent;
+		}
+
+		&.first-aid {
+			background: url(../img/first-aid-ie.png) no-repeat center center transparent;
+		}
+
+		&.wildlife-spotting {
+			background: url(../img/wildlife-spotting-ie.png) no-repeat center center transparent;
+		}
+	}
+}

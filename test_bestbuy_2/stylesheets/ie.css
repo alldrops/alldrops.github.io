@@ -38,7 +38,19 @@
 .activities-list li .icon.wildlife-spotting {
   background: url(../img/wildlife-spotting-ie.png) no-repeat center center transparent;
 }
-/* line 46, ../sass/ie.scss */
-.activities-list li a:hover .icon {
-  background-color: transparent;
+/* line 48, ../sass/ie.scss */
+.activities-list li a:hover .icon.camp-counselor {
+  background: url(../img/camp-counselor-ie.png) no-repeat center center transparent;
+}
+/* line 52, ../sass/ie.scss */
+.activities-list li a:hover .icon.campfire-stories {
+  background: url(../img/campfire-stories-ie.png) no-repeat center center transparent;
+}
+/* line 56, ../sass/ie.scss */
+.activities-list li a:hover .icon.first-aid {
+  background: url(../img/first-aid-ie.png) no-repeat center center transparent;
+}
+/* line 60, ../sass/ie.scss */
+.activities-list li a:hover .icon.wildlife-spotting {
+  background: url(../img/wildlife-spotting-ie.png) no-repeat center center transparent;
 }

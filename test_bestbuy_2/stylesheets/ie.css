@@ -18,27 +18,27 @@
   max-width: 1024px;
 }
 
-/* line 21, ../sass/ie.scss */
-.activities-list .icon img {
+/* line 23, ../sass/ie.scss */
+.activities-list li .icon img {
   display: none;
 }
-/* line 25, ../sass/ie.scss */
-.activities-list .icon.camp-counselor {
+/* line 27, ../sass/ie.scss */
+.activities-list li .icon.camp-counselor {
   background: url(../img/camp-counselor-ie.png) no-repeat center center transparent;
 }
-/* line 29, ../sass/ie.scss */
-.activities-list .icon.campfire-stories {
+/* line 31, ../sass/ie.scss */
+.activities-list li .icon.campfire-stories {
   background: url(../img/campfire-stories-ie.png) no-repeat center center transparent;
 }
-/* line 33, ../sass/ie.scss */
-.activities-list .icon.first-aid {
+/* line 35, ../sass/ie.scss */
+.activities-list li .icon.first-aid {
   background: url(../img/first-aid-ie.png) no-repeat center center transparent;
 }
-/* line 37, ../sass/ie.scss */
-.activities-list .icon.wildlife-spotting {
+/* line 39, ../sass/ie.scss */
+.activities-list li .icon.wildlife-spotting {
   background: url(../img/wildlife-spotting-ie.png) no-repeat center center transparent;
 }
-/* line 42, ../sass/ie.scss */
-.activities-list a:hover {
+/* line 46, ../sass/ie.scss */
+.activities-list li a:hover .icon {
   background-color: transparent;
 }

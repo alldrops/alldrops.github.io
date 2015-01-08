@@ -38,3 +38,7 @@
 .activities-list .icon.wildlife-spotting {
   background: url(../img/wildlife-spotting-ie.png) no-repeat center center transparent;
 }
+/* line 42, ../sass/ie.scss */
+.activities-list a:hover {
+  background-color: transparent;
+}

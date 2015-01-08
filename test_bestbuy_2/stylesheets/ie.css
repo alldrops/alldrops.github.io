@@ -12,45 +12,49 @@
 .form {
   width: 40%;
 }
+/* line 14, ../sass/ie.scss */
+.form label {
+  display: block;
+}
 
-/* line 15, ../sass/ie.scss */
+/* line 19, ../sass/ie.scss */
 .row {
   max-width: 1024px;
 }
 
-/* line 23, ../sass/ie.scss */
+/* line 27, ../sass/ie.scss */
 .activities-list li .icon img {
   display: none;
 }
-/* line 27, ../sass/ie.scss */
+/* line 31, ../sass/ie.scss */
 .activities-list li .icon.camp-counselor {
   background: url(../img/camp-counselor-ie.png) no-repeat center center transparent;
 }
-/* line 31, ../sass/ie.scss */
+/* line 35, ../sass/ie.scss */
 .activities-list li .icon.campfire-stories {
   background: url(../img/campfire-stories-ie.png) no-repeat center center transparent;
 }
-/* line 35, ../sass/ie.scss */
+/* line 39, ../sass/ie.scss */
 .activities-list li .icon.first-aid {
   background: url(../img/first-aid-ie.png) no-repeat center center transparent;
 }
-/* line 39, ../sass/ie.scss */
+/* line 43, ../sass/ie.scss */
 .activities-list li .icon.wildlife-spotting {
   background: url(../img/wildlife-spotting-ie.png) no-repeat center center transparent;
 }
-/* line 46, ../sass/ie.scss */
+/* line 50, ../sass/ie.scss */
 .activities-list li a:hover .icon.camp-counselor {
   background: url(../img/camp-counselor-ie.png) no-repeat center center transparent;
 }
-/* line 50, ../sass/ie.scss */
+/* line 54, ../sass/ie.scss */
 .activities-list li a:hover .icon.campfire-stories {
   background: url(../img/campfire-stories-ie.png) no-repeat center center transparent;
 }
-/* line 54, ../sass/ie.scss */
+/* line 58, ../sass/ie.scss */
 .activities-list li a:hover .icon.first-aid {
   background: url(../img/first-aid-ie.png) no-repeat center center transparent;
 }
-/* line 58, ../sass/ie.scss */
+/* line 62, ../sass/ie.scss */
 .activities-list li a:hover .icon.wildlife-spotting {
   background: url(../img/wildlife-spotting-ie.png) no-repeat center center transparent;
 }

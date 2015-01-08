@@ -133,7 +133,15 @@ form input::-moz-placeholder {
 form input:-ms-input-placeholder {
   color: #FFF;
 }
-/* line 138, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
+form input label {
+  padding: 0 10px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  display: none;
+}
+/* line 144, ../sass/style.scss */
 form button {
   background: #97bc79;
   border-radius: 3px;

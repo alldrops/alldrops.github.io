@@ -521,6 +521,25 @@ ol.default li {
 	font-size: 6em;
 }
 
+.icon:before {
+	width: 128px;
+	height: 128px;
+	content: " ";
+}
+
+.icon.fa-languages:before {
+	background: url('../images/icon-languages.png') no-repeat center center;
+}
+
+.icon.fa-frameworks:before {
+	background: url('../images/icon-frameworks.png') no-repeat center center;
+}
+
+.icon.fa-personal:before {
+	background: url('../images/icon-personal.png') no-repeat center center;
+}
+
+
 /*********************************************************************************/
 /* Wrappers                                                                      */
 /*********************************************************************************/

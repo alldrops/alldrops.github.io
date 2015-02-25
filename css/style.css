@@ -589,6 +589,7 @@ ol.default li {
 .wrapper.style4 form textarea {
 	border: none;
 	background: #282828;
+	resize: none;
 }
 
 .wrapper.style4 form input[type=text]:focus,

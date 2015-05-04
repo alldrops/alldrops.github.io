@@ -617,6 +617,11 @@ ol.default li {
 	cursor: default;
 }
 
+#nav .container {
+	max-width: 960px;
+	width: 100%;
+}
+
 #nav ul {
 	margin-bottom: 0;
 }

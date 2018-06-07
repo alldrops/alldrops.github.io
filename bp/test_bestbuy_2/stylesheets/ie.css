@@ -1,0 +1,60 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 7, ../sass/ie.scss */
+.activities {
+  width: 60%;
+}
+
+/* line 11, ../sass/ie.scss */
+.form {
+  width: 40%;
+}
+/* line 14, ../sass/ie.scss */
+.form label {
+  display: block;
+}
+
+/* line 19, ../sass/ie.scss */
+.row {
+  max-width: 1024px;
+}
+
+/* line 27, ../sass/ie.scss */
+.activities-list li .icon img {
+  display: none;
+}
+/* line 31, ../sass/ie.scss */
+.activities-list li .icon.camp-counselor {
+  background: url(../img/camp-counselor-ie.png) no-repeat center center transparent;
+}
+/* line 35, ../sass/ie.scss */
+.activities-list li .icon.campfire-stories {
+  background: url(../img/campfire-stories-ie.png) no-repeat center center transparent;
+}
+/* line 39, ../sass/ie.scss */
+.activities-list li .icon.first-aid {
+  background: url(../img/first-aid-ie.png) no-repeat center center transparent;
+}
+/* line 43, ../sass/ie.scss */
+.activities-list li .icon.wildlife-spotting {
+  background: url(../img/wildlife-spotting-ie.png) no-repeat center center transparent;
+}
+/* line 50, ../sass/ie.scss */
+.activities-list li a:hover .icon.camp-counselor {
+  background: url(../img/camp-counselor-ie.png) no-repeat center center transparent;
+}
+/* line 54, ../sass/ie.scss */
+.activities-list li a:hover .icon.campfire-stories {
+  background: url(../img/campfire-stories-ie.png) no-repeat center center transparent;
+}
+/* line 58, ../sass/ie.scss */
+.activities-list li a:hover .icon.first-aid {
+  background: url(../img/first-aid-ie.png) no-repeat center center transparent;
+}
+/* line 62, ../sass/ie.scss */
+.activities-list li a:hover .icon.wildlife-spotting {
+  background: url(../img/wildlife-spotting-ie.png) no-repeat center center transparent;
+}

@@ -1,0 +1,77 @@
+/*********************************************************************
+*  Reset
+*
+*  html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+*  v1.4 2009-07-27 | Authors: Eric Meyer & Richard Clark
+*  html5doctor.com/html-5-reset-stylesheet/
+*********************************************************************/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li, a,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { display: block; }
+textarea { resize: none; }
+button { cursor: pointer; }
+ul, ol { list-style: outside none; }
+input, textarea { outline: 0; border: 0 none; }
+a:link, a:hover, a:focus,
+a:active, a:visited { text-decoration: none; color: #000; outline: none;}
+a:hover, a:focus { text-decoration: none; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+address, em { font-style: normal; }
+
+/*********************************************************************
+*  Helpers
+*********************************************************************/
+
+/* Selection background color */
+
+/*::-moz-selection { background: #000; color: #FFF; text-shadow: none; }
+::selection { background: #000; color: #FFF; text-shadow: none; }*/
+
+/* Semantic Clearfix */
+.group { zoom: 1; }
+.group:after {
+	clear: both;
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+/* Disable block selection */
+.noselect {
+	-moz-user-select: none;
+	-o-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select :none;
+	user-select: none;
+}
+
+/*********************************************************************
+*  Main Definitions
+*********************************************************************/
+body {
+	/* http://www.usabilitypost.com/2010/08/26/font-smoothing/ */
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+
+    /*
+	* http://riddle.pl/emcalc/
+	*/
+	font: normal normal 100% Arial, Helvetica, sans-serif;
+}

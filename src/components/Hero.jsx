@@ -45,7 +45,7 @@ const Hero = () => {
                 Andre
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
+            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`} style={{width: `450px`}}>
               I write code to fix some things and make others pretty.<br className="sm:block hidden" />
               Usually both at the same time.
             </p>

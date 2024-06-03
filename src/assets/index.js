@@ -5,8 +5,8 @@ import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo-black.png';
 import alldropsLogoBlack from './logo/alldrops-logo-black.png';
+import drop from './icons/drop.png';
 
-import shaq from './personal/shaq.png';
 import andre1 from './personal/andre1.png';
 import andre2 from './personal/andre2.png';
 import andre3 from './personal/andre3.png';
@@ -61,7 +61,7 @@ export {
   worldmap,
   logo,
   alldropsLogoBlack,
-  shaq,
+  drop,
   andre1,
   andre2,
   andre3,

@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { styles } from '../styles';
 import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
-import { download, downloadHover, resume } from '../assets';
+import { download, drop, downloadHover, resume } from '../assets';
 import { textVariant } from '../utils/motion';
 
 const ExperienceCard = ({ experience }) => (
@@ -32,9 +32,9 @@ const ExperienceCard = ({ experience }) => (
     icon={
       <div className="flex justify-center items-center w-full h-full">
         <img
-          src={experience.icon}
+          src={drop}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain"
+          className="w-[50%] h-[50%] object-contain"
         />
       </div>
     }>
@@ -43,7 +43,7 @@ const ExperienceCard = ({ experience }) => (
         {experience.title}
       </h3>
       <p
-        className="text-taupe text-[22px] font-semibold font-overcameBold tracking-[1px]"
+        className="text-taupe text-[22px] font-semibold tracking-[1px]"
         style={{ margin: 0 }}>
         {experience.company_name}
       </p>

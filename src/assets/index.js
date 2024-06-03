@@ -4,9 +4,14 @@ import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo-black.png';
-import logotext from './logo/logo-text-black.png';
+import alldropsLogoBlack from './logo/alldrops-logo-black.png';
 
 import shaq from './personal/shaq.png';
+import andre1 from './personal/andre1.png';
+import andre2 from './personal/andre2.png';
+import andre3 from './personal/andre3.png';
+import andre4 from './personal/andre4.png';
+import andre5 from './personal/andre5.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -55,8 +60,13 @@ export {
   whiteabstract,
   worldmap,
   logo,
-  logotext,
+  alldropsLogoBlack,
   shaq,
+  andre1,
+  andre2,
+  andre3,
+  andre4,
+  andre5,
   backend,
   ux,
   frontend,

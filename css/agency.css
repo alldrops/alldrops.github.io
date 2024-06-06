@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   .navbar-default .navbar-collapse {
     border-color: rgba(255, 255, 255, 0.2); }
   .navbar-default .navbar-toggle {
+    display: none;
     background-color: #1F9800;
     border-color: #1F9800; }
     .navbar-default .navbar-toggle .icon-bar {

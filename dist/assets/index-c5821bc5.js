@@ -3549,11 +3549,11 @@ No matching component was found for:
         sm:bg-hero bg-hero-mobile overflow-hidden`,children:[re.jsxs("div",{className:`absolute sm:top-[250px] m:top-[150px] top-[150px] 
           lg:top-[150px] xl:top-[250px] ${ii.paddingX} 
           max-w-7xl mx-auto flex flex-row items-start
-          justify-between gap-3 hero-text`,children:[re.jsxs("div",{children:[re.jsxs("h1",{className:`${ii.heroHeadText} text-eerieBlack font-poppins uppercase`,children:["Hi, I'm"," ",re.jsx("span",{className:`sm:text-battleGray sm:text-[90px] 
+          justify-between gap-3 hero-text inset-0`,children:[re.jsxs("div",{children:[re.jsxs("h1",{className:`${ii.heroHeadText} text-eerieBlack font-poppins uppercase`,children:["Hi, I'm"," ",re.jsx("span",{className:`sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase`,children:"Andre"})]}),re.jsxs("p",{className:`${ii.heroSubText} mt-2 text-eerieBlack`,style:{width:"100%",maxWidth:"450px"},children:["I write code to fix some things and make others pretty.",re.jsx("br",{}),"Usually both at the same time."]})]}),re.jsx("div",{className:`w-screen flex flex-col items-start 
             justify-center sm:-ml-[3rem] xxs:mt-4`}),re.jsx("div",{})]}),re.jsx("div",{className:`absolute xs:bottom-10 bottom-32 w-full 
-          flex justify-center items-center`,children:re.jsx("a",{href:"#about",children:re.jsx("div",{className:`w-[35px] h-[64px] rounded-3xl border-4 
+          flex justify-center items-center z-10`,children:re.jsx("a",{href:"#about",children:re.jsx("div",{className:`w-[35px] h-[64px] rounded-3xl border-4 
             border-french border-dim flex
             justify-center items-start p-2`,children:re.jsx(fr.div,{animate:{y:[0,24,0]},transition:{duration:1.5,repeat:1/0,repeatType:"loop"},className:"w-3 h-3 rounded-full bg-taupe mb-1"})})})}),re.jsx("div",{children:re.jsx("img",{className:`hero-image absolute bottom-0 right-0 ml-[50vw]
             sm:h-[50vh] md:h-[60vh] xl:h-[80vh]

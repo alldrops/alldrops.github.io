@@ -78,6 +78,9 @@
 }
 
 @media (max-width: 449px) {
+  .hero-text {
+    top: 70px;
+  }
   .hero-image {
     max-height: 50vh;
   }   

@@ -25,7 +25,7 @@ const Hero = () => {
         className="relative flex sm:flex-row flex-col w-full h-screen mx-auto 
         sm:bg-hero bg-hero-mobile overflow-hidden">
         <div
-          className={`absolute inset-0 sm:top-[250px] top-[150px] 
+          className={`absolute inset-0 sm:top-[250px] m:top-[150px] top-[150px] 
           lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
           max-w-7xl mx-auto flex flex-row items-start
           justify-between gap-3`}>
@@ -83,7 +83,7 @@ const Hero = () => {
           <img
             className="absolute bottom-0 right-0 ml-[50vw] 
             lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
+            sm:h-[50vh] md:h-[60vh] xl:h-[80vh]"
             src={andre5}
             alt="Andre"
           />

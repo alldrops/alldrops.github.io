@@ -4,6 +4,7 @@ import {
   Contact,
   Experience,
   Hero,
+  Hero2,
   Navbar,
   Tech,
   Projects,
@@ -15,7 +16,8 @@ const App = () => {
       <div className="relative z-0">
         <div>
           <Navbar />
-          <Hero />
+          <Hero2 />
+          {/* <Hero /> */}
         </div>
 
         <div className="bg-about bg-cover bg-center bg-no-repeat">

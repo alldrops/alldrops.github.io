@@ -113,7 +113,7 @@ const ProjectCard = ({
 };
 
 const Projects = () => {
-  const [active, setActive] = useState('project-2');
+  const [active, setActive] = useState('project-1');
 
   return (
     <div className="-mt-[6rem]">
@@ -140,7 +140,7 @@ const Projects = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}>
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[40vh] gap-5">
           {projects.map((project, index) => (
             <ProjectCard
               key={project.id}

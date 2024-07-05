@@ -83,19 +83,15 @@
   }
   .hero-image {
     max-height: 50vh;
-  }   
+  }
 }
 
-@media (min-width: 768px) {
-    
-}
-
-@media (min-width: 992px) {
-    
-}
-
-@media (min-width: 1200px) {
-    
+@media (max-width: 768px) {
+  .hero .hero-image {
+    width: auto;
+    height: auto;
+    max-height: 50vh;
+  }
 }
 
 .hash-span {

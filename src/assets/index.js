@@ -41,7 +41,7 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import styledcomponents from './tech/styledcomponents.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -90,7 +90,7 @@ export {
   javascript,
   nodejs,
   postgresql,
-  rubyrails,
+  styledcomponents,
   reactjs,
   redux,
   tailwind,

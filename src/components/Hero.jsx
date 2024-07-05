@@ -22,7 +22,7 @@ const Hero = () => {
         />
       </div>
       <section
-        className="relative flex sm:flex-row flex-col w-full h-screen mx-auto 
+        className="hero relative flex sm:flex-row flex-col w-full h-screen mx-auto 
         sm:bg-hero bg-hero-mobile overflow-hidden">
         <div
           className={`absolute sm:top-[250px] m:top-[150px] top-[150px] 

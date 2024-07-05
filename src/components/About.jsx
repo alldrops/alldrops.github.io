@@ -38,7 +38,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
           With over a decade of experience, my core competencies revolve around creating captivating digital experiences and robust web architectures. At the helm of Alldrops Digital, my mission is to harness the power of cutting-edge technologies to deliver innovative solutions. My expertise in UI/UX design aligns with my company's goal of crafting interfaces that resonate with users and foster engagement.
-
+          <br />
           My tenure at TELUS Digital has been marked by leading dynamic teams in the design and execution of marketing and checkout pages that enhance the customer journey. Utilizing JavaScript, HTML5, and CSS3, I have been instrumental in mentoring and educating developers, fostering an environment of continuous learning and improvement. Our efforts have culminated in scalable, reusable components that have significantly benefitted TELUS and its affiliates.
       </motion.p>
 

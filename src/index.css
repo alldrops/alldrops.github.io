@@ -77,6 +77,24 @@
   font-weight: 700;
 }
 
+@media (max-width: 449px) {
+  .hero-image {
+    max-height: 50vh;
+  }   
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

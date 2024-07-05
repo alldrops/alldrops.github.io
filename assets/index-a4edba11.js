@@ -3549,7 +3549,7 @@ No matching component was found for:
         sm:bg-hero bg-hero-mobile overflow-hidden`,children:[re.jsxs("div",{className:`absolute sm:top-[250px] m:top-[150px] top-[150px] 
           lg:top-[150px] xl:top-[250px] ${ii.paddingX} 
           max-w-7xl mx-auto flex flex-row items-start
-          justify-between gap-3`,children:[re.jsxs("div",{children:[re.jsxs("h1",{className:`${ii.heroHeadText} text-eerieBlack font-poppins uppercase hero-text`,children:["Hi, I'm"," ",re.jsx("span",{className:`sm:text-battleGray sm:text-[90px] 
+          justify-between gap-3 hero-text`,children:[re.jsxs("div",{children:[re.jsxs("h1",{className:`${ii.heroHeadText} text-eerieBlack font-poppins uppercase`,children:["Hi, I'm"," ",re.jsx("span",{className:`sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase`,children:"Andre"})]}),re.jsxs("p",{className:`${ii.heroSubText} mt-2 text-eerieBlack`,style:{width:"100%",maxWidth:"450px"},children:["I write code to fix some things and make others pretty.",re.jsx("br",{}),"Usually both at the same time."]})]}),re.jsx("div",{className:`w-screen flex flex-col items-start 
             justify-center sm:-ml-[3rem] xxs:mt-4`}),re.jsx("div",{})]}),re.jsx("div",{className:`absolute xs:bottom-10 bottom-32 w-full 

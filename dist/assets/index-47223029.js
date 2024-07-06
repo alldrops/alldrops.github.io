@@ -3576,16 +3576,16 @@ No matching component was found for:
               ease-in-out`,onClick:()=>window.open("resume link","_blank"),onMouseOver:()=>{document.querySelector(".download-btn").setAttribute("src",Ij)},onMouseOut:()=>{document.querySelector(".download-btn").setAttribute("src",SC)},children:["MY RESUME",re.jsx("img",{src:SC,alt:"download",className:`download-btn sm:w-[26px] sm:h-[26px] 
                 w-[23px] h-[23px] object-contain`})]})})]})})]}),N9=wh(D9,"work"),U9=({id:n,name:e,description:t,image:i,repo:r,demo:s,index:o,active:a,handleClick:u})=>re.jsxs(fr.div,{variants:Cg("right","spring",o*.5,.75),className:`relative ${a===n?"lg:flex-[3.5] flex-[10]":"lg:flex-[0.5] flex-[2]"} flex items-center justify-center min-w-[170px] 
       h-[420px] cursor-pointer card-shadow`,onClick:()=>u(n),children:[re.jsx("div",{className:`absolute top-0 left-0 z-10 bg-jetLight 
-      h-full w-full opacity-[0.5] rounded-[24px]`}),re.jsx("img",{src:i,alt:e,className:"absolute w-full h-full object-cover rounded-[24px]"}),a!==n?re.jsx("div",{className:"flex items-center justify-start pr-[4.5rem]",children:re.jsx("h3",{className:`font-extrabold font-beckman uppercase w-[200px] h-[30px] 
+      h-full w-full opacity-[0.5] rounded-[24px]`}),re.jsx("img",{src:i,alt:e,className:"absolute w-full h-full object-cover rounded-[24px]"}),a!==n?re.jsx("div",{className:"project-card project-card--off flex items-center justify-start pr-[4.5rem]",children:re.jsx("h3",{className:`font-extrabold font-beckman uppercase w-[200px] h-[30px] 
         whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
         absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
-        leading-none z-20`,children:e})}):re.jsx(re.Fragment,{children:re.jsxs("div",{className:`absolute bottom-0 p-8 justify-start w-full 
+        leading-none z-20`,children:e})}):re.jsx(re.Fragment,{children:re.jsxs("div",{className:`project-card--on absolute bottom-0 p-8 justify-start w-full 
             flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20`,children:[re.jsx("div",{className:"absolute inset-0 flex justify-end m-3",children:r&&re.jsx("div",{onClick:()=>window.open(r,"_blank"),className:`bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
                     flex justify-center items-center cursor-pointer
-                    sm:opacity-[0.9] opacity-[0.8]`,children:re.jsx("img",{src:Rj,alt:"source code",className:"w-4/5 h-4/5 object-contain"})})}),re.jsx("h2",{className:`font-bold sm:text-[32px] text-[24px] 
+                    sm:opacity-[0.9] opacity-[0.8]`,children:re.jsx("img",{src:Rj,alt:"source code",className:"w-4/5 h-4/5 object-contain"})})}),re.jsx("h2",{className:`project-card-title font-bold sm:text-[32px] text-[24px] 
               text-timberWolf uppercase font-beckman sm:mt-0 -mt-[1rem]`,children:e}),re.jsx("p",{className:`text-silver sm:text-[14px] text-[12px] 
               max-w-3xl sm:leading-[24px] leading-[18px]
-              font-poppins tracking-[1px]`,children:t}),re.jsxs("button",{className:`live-demo flex justify-between 
+              font-poppins tracking-[1px]`,children:t}),re.jsxs("button",{className:`project-card-button live-demo flex justify-between 
               sm:text-[16px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-2 pr-3 
               whitespace-nowrap gap-1 sm:w-[138px] sm:h-[50px] 

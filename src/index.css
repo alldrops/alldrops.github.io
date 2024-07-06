@@ -84,6 +84,23 @@
   .hero-image {
     max-height: 50vh;
   }
+  .project-card--off {
+    width: 100%;
+  }
+  .project-card--off h3 {
+    width: 100%;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .project-card--on {
+    padding: 0.5rem 1rem;
+  }
+  .project-card-title {
+    padding-top: 3px;
+  }
+  .project-card-button {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -93,6 +110,7 @@
     max-height: 50vh;
   }
 }
+
 
 .hash-span {
   margin-top: -100px;

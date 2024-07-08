@@ -8,8 +8,26 @@ import {
   Tech,
   Projects,
 } from './components';
+import { caughtin4k } from './assets/index';
 
 const App = () => {
+
+  let customConsole = [
+    `background-image: url(${caughtin4k})`,
+    "background-size: cover",
+    "color: black",
+    "padding: 100px",
+    "font-weight: bolder",
+    "font-size: 40px",
+    "-webkit-text-stroke-width: 1px",
+    "-webkit-text-stroke-color: yellow",
+    "text-transform: uppercase",
+    "text-align: center",
+    "letter-spacing: 1px",
+  ].join(" ;");
+  
+  console.log("%cAREN'T YOU CURIOUS?", customConsole);
+
   return (
     <BrowserRouter>
       <div className="relative z-0">

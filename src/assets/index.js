@@ -13,6 +13,7 @@ import andre2 from './personal/andre2.png';
 import andre3 from './personal/andre3.png';
 import andre4 from './personal/andre4.png';
 import andre5 from './personal/andre5.png';
+import caughtin4k from './personal/caughtin4k.gif';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -69,6 +70,7 @@ export {
   andre3,
   andre4,
   andre5,
+  caughtin4k,
   backend,
   ux,
   frontend,

@@ -3616,6 +3616,6 @@ No matching component was found for:
 
 I made this site using a template, so if you find any bugs or just want to say hi, feel free to message me about it using the contact form own at the bottom of the page!
 
-I hope your day is as amazing as you`,e)})(),re.jsx(FU,{children:re.jsxs("div",{className:"relative z-0",children:[re.jsxs("div",{children:[re.jsx(u9,{}),re.jsx(l9,{})]}),re.jsx("div",{className:"bg-about bg-cover bg-center bg-no-repeat",children:re.jsx(d9,{})}),re.jsx("div",{className:"bg-tech bg-cover bg-center bg-no-repeat pb-10",children:re.jsx(m9,{})}),re.jsx(O9,{}),re.jsx("div",{className:`bg-experience bg-cover bg-center bg-no-repeat 
+I hope your day is as amazing as you!`,e)})(),re.jsx(FU,{children:re.jsxs("div",{className:"relative z-0",children:[re.jsxs("div",{children:[re.jsx(u9,{}),re.jsx(l9,{})]}),re.jsx("div",{className:"bg-about bg-cover bg-center bg-no-repeat",children:re.jsx(d9,{})}),re.jsx("div",{className:"bg-tech bg-cover bg-center bg-no-repeat pb-10",children:re.jsx(m9,{})}),re.jsx(O9,{}),re.jsx("div",{className:`bg-experience bg-cover bg-center bg-no-repeat 
             rounded-tl-[150px] rounded-br-[150px]`,children:re.jsx("div",{className:`bg-experienceLight bg-cover bg-center 
             bg-no-repeat rounded-tl-[150px] rounded-br-[130px]`,children:re.jsx(D9,{})})}),re.jsx("div",{className:"relative z-0",children:re.jsx(G9,{})})]})})};ly.createRoot(document.getElementById("root")).render(re.jsx(AA.StrictMode,{children:re.jsx(W9,{})}));

@@ -7,6 +7,7 @@ import logo from './logo/logo-black.png';
 import alldropsLogoBlack from './logo/alldrops-logo-black.png';
 import drop from './icons/drop.png';
 
+import resumeFile from './andre_lopes_resume.pdf';
 import andre1 from './personal/andre1.png';
 import andre2 from './personal/andre2.png';
 import andre3 from './personal/andre3.png';
@@ -62,6 +63,7 @@ export {
   logo,
   alldropsLogoBlack,
   drop,
+  resumeFile,
   andre1,
   andre2,
   andre3,

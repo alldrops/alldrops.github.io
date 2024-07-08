@@ -12,21 +12,66 @@ import { caughtin4k } from './assets/index';
 
 const App = () => {
 
-  let customConsole = [
-    `background-image: url(${caughtin4k})`,
-    "background-size: cover",
-    "color: black",
-    "padding: 100px",
-    "font-weight: bolder",
-    "font-size: 40px",
-    "-webkit-text-stroke-width: 1px",
-    "-webkit-text-stroke-color: yellow",
-    "text-transform: uppercase",
-    "text-align: center",
-    "letter-spacing: 1px",
-  ].join(" ;");
+  // let blackBackground = [
+  //   "font-size: 50px",
+  //   "background-color: black",
+  //   "color: white",
+  // ].join(" ;");
   
-  console.log("%cAREN'T YOU CURIOUS?", customConsole);
+  // let whiteBackground = [
+  //   "font-size: 50px",
+  //   "background-color: white",
+  //   "color: black",
+  // ].join(" ;");
+  
+  // console.log(
+  //   "%cHA! CAUGHT YOU 4K!",
+  //   blackBackground,
+  //   whiteBackground
+  // );
+
+  console.image = (url) =>{
+    var xhr = new XMLHttpRequest();
+    xhr.open('get', url);
+    xhr.responseType = 'blob';
+    xhr.onload = function(){
+        var fr = new FileReader();
+
+        fr.onload = function(){
+            const style = `font-size: 300px; background-image: url("${this.result}"); background-size: contain; background-repeat: no-repeat;`;
+            console.log("%c     ", style);
+        };
+        fr.readAsDataURL(xhr.response); // async call
+    };
+    xhr.send();
+  }
+
+  let customConsoleCaught = [
+    'color: #0dd8d8',
+    'background: #0b1021',
+    'font-size: 2.5rem',
+    'padding: 0.25rem',
+    'margin: 1rem auto',
+    'font-family: Helvetica',
+    'border: 2px solid #0dd8d8',
+    'border-radius: 4px',
+    'font-weight: bold',
+    'text-shadow: 1px 1px 1px #00af87bf',
+  ].join(" ;");
+
+  let customConsoleCaughtText = [
+    'font-size: 18px',
+    'background-color: black',
+    'color: white',
+  ].join(" ;");
+
+  const caughtYou = () => {
+    console.log(`\n%cHA! Caught you in 4k!`, customConsoleCaught);
+    console.image('https://alldrops.github.io/assets/caughtin4k-010e408d.gif');
+    console.log('\n%cFeel free to look around, try to break things and have fun!\n\nI made this site using a template, so if you find any bugs or just want to say hi, feel free to message me about it using the contact form own at the bottom of the page!\n\nI hope your day is as amazing as you', customConsoleCaughtText);
+  };
+
+  caughtYou();
 
   return (
     <BrowserRouter>

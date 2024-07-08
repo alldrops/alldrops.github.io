@@ -49,7 +49,7 @@ const services = [
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Mentorship',
     icon: backend,
   },
   {

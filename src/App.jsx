@@ -51,7 +51,7 @@ const App = () => {
 
     setTimeout(() => {
       console.log(`\n%cHA! Caught you in 4k!`, customConsoleCaught);
-      console.log('\n%cFeel free to look around, try to break things and have fun!\n\nI made this site using a template, so if you find any bugs or just want to say hi, feel free to message me about it using the contact form own at the bottom of the   page!\n\nI hope your day is as amazing as you!', customConsoleCaughtText);
+      console.log('\n%cFeel free to look around, try to break things and have fun!\n\nI made this site using a template, so if you find any bugs or just want to say hi, feel free to message me about it using the contact form at the bottom of the   page!\n\nI hope your day is as amazing as you!', customConsoleCaughtText);
     }, 1000);
   };
 

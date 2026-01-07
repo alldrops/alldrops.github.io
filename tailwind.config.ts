@@ -26,6 +26,7 @@ export default {
         heading: "hsl(var(--heading))",
         subtle: "hsl(var(--subtle))",
         highlight: "hsl(var(--highlight))",
+        "highlight-secondary": "hsl(var(--highlight-secondary))",
         "section-alt": "hsl(var(--section-alt))",
         primary: {
           DEFAULT: "hsl(var(--primary))",

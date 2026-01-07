@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <p className="font-semibold text-foreground mb-1">Andre Lopes</p>
             <p className="text-sm text-muted-foreground">
-              Senior Frontend Engineer · Vancouver, Canada
+              Senior Frontend Engineer · Canada
             </p>
           </div>
 

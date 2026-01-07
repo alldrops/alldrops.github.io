@@ -4,23 +4,23 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="py-12 border-t border-border bg-card/50">
+    <footer className="py-12 border-t border-border">
       <div className="container-wide">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <p className="font-serif text-lg font-medium text-heading mb-1">Andre Lopes</p>
+            <p className="font-semibold text-foreground mb-1">Andre Lopes</p>
             <p className="text-sm text-muted-foreground">
               Senior Frontend Engineer · Vancouver, Canada
             </p>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2">
             <a
               href="https://www.linkedin.com/in/andrelopes22/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-all"
-              aria-label="LinkedIn"
+              className="p-2.5 rounded-full text-muted-foreground hover:text-foreground hover:bg-muted transition-colors focus-ring"
+              aria-label="LinkedIn profile"
             >
               <Linkedin className="w-5 h-5" />
             </a>
@@ -28,15 +28,15 @@ const Footer = () => {
               href="https://github.com/alldrops"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-all"
-              aria-label="GitHub"
+              className="p-2.5 rounded-full text-muted-foreground hover:text-foreground hover:bg-muted transition-colors focus-ring"
+              aria-label="GitHub profile"
             >
               <Github className="w-5 h-5" />
             </a>
             <a
               href="mailto:andre.22.lopes@gmail.com"
-              className="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-all"
-              aria-label="Email"
+              className="p-2.5 rounded-full text-muted-foreground hover:text-foreground hover:bg-muted transition-colors focus-ring"
+              aria-label="Send email"
             >
               <Mail className="w-5 h-5" />
             </a>

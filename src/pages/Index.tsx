@@ -1,22 +1,26 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Capabilities from "@/components/Capabilities";
 import Experience from "@/components/Experience";
+import SelectedWork from "@/components/SelectedWork";
 import Skills from "@/components/Skills";
 import Mentorship from "@/components/Mentorship";
-import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import AnimatedBackground from "@/components/AnimatedBackground";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen relative">
+      <AnimatedBackground />
       <Header />
-      <main>
+      <main id="main-content">
         <Hero />
+        <Capabilities />
         <Experience />
+        <SelectedWork />
         <Skills />
         <Mentorship />
-        <About />
         <Contact />
       </main>
       <Footer />

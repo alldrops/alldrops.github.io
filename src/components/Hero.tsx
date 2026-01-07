@@ -1,100 +1,118 @@
-import { Button } from "@/components/ui/button";
-import { ArrowDown, Mail, FileText, Sparkles } from "lucide-react";
+import { motion, useReducedMotion } from "framer-motion";
+import { ArrowDown, Mail, FileText, Layers, Accessibility, Code2, ShoppingBag } from "lucide-react";
+import FadeIn from "./FadeIn";
+
+const capabilities = [
+  {
+    icon: Layers,
+    title: "Design Systems",
+    description: "Component libraries at scale",
+  },
+  {
+    icon: Accessibility,
+    title: "Accessibility",
+    description: "WCAG-compliant interfaces",
+  },
+  {
+    icon: Code2,
+    title: "React & TypeScript",
+    description: "Scalable frontend architecture",
+  },
+  {
+    icon: ShoppingBag,
+    title: "E-commerce",
+    description: "High-traffic product experiences",
+  },
+];
 
 const Hero = () => {
+  const shouldReduceMotion = useReducedMotion();
+
   return (
-    <section className="min-h-screen flex items-center relative overflow-hidden">
-      {/* Background gradient orbs */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-20 -right-40 w-[500px] h-[500px] rounded-full bg-gradient-to-br from-primary/10 to-accent/5 blur-3xl" />
-        <div className="absolute -bottom-20 -left-40 w-[400px] h-[400px] rounded-full bg-gradient-to-tr from-accent/10 to-primary/5 blur-3xl" />
-      </div>
+    <section className="min-h-screen flex flex-col justify-center relative pt-20">
+      <div className="container-wide">
+        <div className="max-w-4xl">
+          <FadeIn delay={0.1}>
+            <p className="text-muted-foreground text-lg md:text-xl mb-6 font-medium">
+              Senior Frontend Engineer
+            </p>
+          </FadeIn>
 
-      {/* Grid pattern */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,hsl(var(--border))_1px,transparent_1px),linear-gradient(to_bottom,hsl(var(--border))_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_110%)] pointer-events-none opacity-40" />
-
-      <div className="container-wide relative z-10">
-        <div className="grid lg:grid-cols-[1fr,auto] gap-12 items-center">
-          <div>
-            <div className="animate-fade-in" style={{ animationDelay: "0.1s", opacity: 0 }}>
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-8">
-                <Sparkles className="w-4 h-4" />
-                Open to opportunities
-              </div>
-            </div>
-
-            <h1 className="animate-fade-in mb-6" style={{ animationDelay: "0.2s", opacity: 0 }}>
-              <span className="block text-muted-foreground text-lg md:text-xl font-sans font-normal mb-2">
-                Senior Frontend Engineer
-              </span>
+          <FadeIn delay={0.2}>
+            <h1 className="mb-8">
               <span className="block">Andre Lopes</span>
+              <span className="block text-muted-foreground mt-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium">
+                UI Engineering & Design Systems
+              </span>
             </h1>
+          </FadeIn>
 
-            <div className="animate-fade-in" style={{ animationDelay: "0.3s", opacity: 0 }}>
-              <p className="text-xl md:text-2xl text-foreground font-light max-w-xl mb-4 leading-relaxed">
-                Building scalable, accessible web experiences for{" "}
-                <span className="font-medium text-primary">e-commerce</span> and{" "}
-                <span className="font-medium text-accent">consumer-facing</span> products.
-              </p>
-              <p className="prose-content max-w-lg mb-10">
-                With 15+ years of experience, I specialize in React, TypeScript, design systems, and performance optimization. I've led frontend initiatives at companies like Arc'teryx and TELUS Digital.
-              </p>
-            </div>
+          <FadeIn delay={0.3}>
+            <p className="prose-content max-w-2xl mb-12 text-xl md:text-2xl font-light leading-relaxed">
+              15+ years building scalable, accessible web experiences. 
+              Specialized in React, component libraries, and high-traffic 
+              e-commerce platforms.
+            </p>
+          </FadeIn>
 
-            <div
-              className="flex flex-wrap gap-3 animate-fade-in"
-              style={{ animationDelay: "0.4s", opacity: 0 }}
-            >
-              <Button asChild size="lg" className="rounded-full px-6 shadow-lg shadow-primary/25">
-                <a href="#experience">
-                  View Experience
-                  <ArrowDown className="ml-2 h-4 w-4" />
-                </a>
-              </Button>
-              <Button variant="outline" size="lg" className="rounded-full px-6" asChild>
-                <a href="/andre_lopes_resume.pdf" download>
-                  <FileText className="mr-2 h-4 w-4" />
-                  Resume
-                </a>
-              </Button>
-              <Button variant="ghost" size="lg" className="rounded-full px-6" asChild>
-                <a href="#contact">
-                  <Mail className="mr-2 h-4 w-4" />
-                  Contact
-                </a>
-              </Button>
+          <FadeIn delay={0.4}>
+            <div className="flex flex-wrap gap-4 mb-20">
+              <a href="#contact" className="btn-primary">
+                <Mail className="w-4 h-4" />
+                Contact
+              </a>
+              <a href="/andre_lopes_resume.pdf" download className="btn-secondary">
+                <FileText className="w-4 h-4" />
+                Resume
+              </a>
+              <a href="#experience" className="btn-ghost">
+                View Experience
+                <ArrowDown className="w-4 h-4" />
+              </a>
             </div>
-          </div>
-
-          {/* Visual element */}
-          <div className="hidden lg:block animate-fade-in" style={{ animationDelay: "0.5s", opacity: 0 }}>
-            <div className="relative w-72 h-72">
-              {/* Decorative shapes */}
-              <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/20 to-accent/20 rotate-6 transition-transform duration-500 hover:rotate-12" />
-              <div className="absolute inset-0 rounded-3xl bg-gradient-to-tr from-primary to-accent opacity-90 flex items-center justify-center">
-                <div className="text-center text-primary-foreground">
-                  <div className="text-6xl font-bold font-serif">15+</div>
-                  <div className="text-sm uppercase tracking-widest opacity-80 mt-1">Years</div>
-                </div>
-              </div>
-              {/* Floating elements */}
-              <div className="absolute -top-4 -right-4 w-12 h-12 rounded-xl bg-accent rotate-12 flex items-center justify-center text-accent-foreground font-bold text-sm shadow-lg">
-                UI
-              </div>
-              <div className="absolute -bottom-3 -left-3 w-16 h-16 rounded-2xl bg-card border border-border shadow-lg flex items-center justify-center">
-                <span className="text-2xl">⚛️</span>
-              </div>
-            </div>
-          </div>
+          </FadeIn>
         </div>
 
-        {/* Scroll indicator */}
-        <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce hidden md:block">
-          <div className="w-6 h-10 rounded-full border-2 border-muted-foreground/30 flex items-start justify-center p-1">
-            <div className="w-1.5 h-3 rounded-full bg-muted-foreground/50" />
+        {/* Capability highlights */}
+        <FadeIn delay={0.5}>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mt-8">
+            {capabilities.map((cap, index) => {
+              const Icon = cap.icon;
+              return (
+                <motion.div
+                  key={index}
+                  className="capability-card group"
+                  whileHover={shouldReduceMotion ? {} : { y: -4 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <div className="flex-shrink-0">
+                    <Icon className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors" />
+                  </div>
+                  <div>
+                    <p className="font-medium text-foreground text-sm">{cap.title}</p>
+                    <p className="text-muted-foreground text-sm mt-0.5">{cap.description}</p>
+                  </div>
+                </motion.div>
+              );
+            })}
           </div>
-        </div>
+        </FadeIn>
       </div>
+
+      {/* Scroll indicator */}
+      <motion.div 
+        className="absolute bottom-12 left-1/2 -translate-x-1/2 hidden md:block"
+        animate={shouldReduceMotion ? {} : { y: [0, 8, 0] }}
+        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+      >
+        <div className="w-6 h-10 rounded-full border-2 border-muted-foreground/30 flex items-start justify-center p-1.5">
+          <motion.div 
+            className="w-1 h-2 rounded-full bg-muted-foreground/50"
+            animate={shouldReduceMotion ? {} : { y: [0, 12, 0] }}
+            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+          />
+        </div>
+      </motion.div>
     </section>
   );
 };

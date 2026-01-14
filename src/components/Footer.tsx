@@ -16,7 +16,7 @@ const Footer = () => {
 
           <div className="flex items-center gap-2">
             <a
-              href="https://www.linkedin.com/in/andrelopes22/"
+              href="https://www.linkedin.com/in/alldrops/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 rounded-full text-muted-foreground hover:text-foreground hover:bg-muted transition-colors focus-ring"

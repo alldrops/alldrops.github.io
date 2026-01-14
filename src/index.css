@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    /* Light mode - subtle, clean */
+    /* Light mode - improved contrast for WCAG AA */
     --background: 0 0% 98%;
     --foreground: 0 0% 9%;
 
@@ -19,28 +19,28 @@
     --primary: 0 0% 9%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 0 0% 94%;
-    --secondary-foreground: 0 0% 20%;
+    --secondary: 0 0% 92%;
+    --secondary-foreground: 0 0% 15%;
 
-    --muted: 0 0% 94%;
-    --muted-foreground: 0 0% 45%;
+    --muted: 0 0% 92%;
+    --muted-foreground: 0 0% 35%;
 
-    --accent: 0 0% 94%;
+    --accent: 0 0% 92%;
     --accent-foreground: 0 0% 9%;
 
-    --destructive: 0 84% 60%;
+    --destructive: 0 84% 40%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 90%;
-    --input: 0 0% 90%;
+    --border: 0 0% 85%;
+    --input: 0 0% 85%;
     --ring: 0 0% 9%;
 
     --radius: 0.75rem;
 
     /* Custom tokens */
     --heading: 0 0% 5%;
-    --subtle: 0 0% 50%;
-    --glow: 220 100% 60%;
+    --subtle: 0 0% 40%;
+    --glow: 220 100% 50%;
   }
 
   .dark {

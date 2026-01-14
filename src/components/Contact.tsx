@@ -34,7 +34,7 @@ const Contact = () => {
         <FadeIn delay={0.2}>
           <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-8">
             <motion.a
-              href="https://www.linkedin.com/in/andrelopes22/"
+              href="https://www.linkedin.com/in/alldrops/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 p-4 rounded-xl hover:bg-card transition-colors group focus-ring"

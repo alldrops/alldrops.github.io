@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from "framer-motion";
-import { ArrowDown, Mail, FileText, Layers, Accessibility, Code2, ShoppingBag } from "lucide-react";
+import { ArrowDown, Mail, Layers, Accessibility, Code2, ShoppingBag } from "lucide-react";
 import FadeIn from "./FadeIn";
 
 const capabilities = [
@@ -61,13 +61,12 @@ const Hero = () => {
                 <Mail className="w-4 h-4" />
                 Contact
               </a>
-              <a href="/andre_lopes_resume.pdf" download className="btn-secondary">
-                <FileText className="w-4 h-4" />
-                Resume
-              </a>
-              <a href="#experience" className="btn-ghost">
+              <a href="#experience" className="btn-secondary">
                 View Experience
                 <ArrowDown className="w-4 h-4" />
+              </a>
+              <a href="#capabilities" className="btn-ghost">
+                What I Do
               </a>
             </div>
           </FadeIn>

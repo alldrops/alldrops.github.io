@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from "framer-motion";
-import { Mail, Linkedin, Github, FileText, ArrowUpRight } from "lucide-react";
+import { Mail, Linkedin, Github, ArrowUpRight } from "lucide-react";
 import FadeIn from "./FadeIn";
 
 const Contact = () => {
@@ -22,15 +22,11 @@ const Contact = () => {
         </FadeIn>
 
         <FadeIn delay={0.1}>
-          <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
+          <div className="flex justify-center mb-16">
             <a href="mailto:andre.22.lopes@gmail.com" className="btn-primary">
               <Mail className="w-4 h-4" />
               Email Me
               <ArrowUpRight className="w-4 h-4" />
-            </a>
-            <a href="/andre_lopes_resume.pdf" download className="btn-secondary">
-              <FileText className="w-4 h-4" />
-              Download Resume
             </a>
           </div>
         </FadeIn>

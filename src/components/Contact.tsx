@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from "framer-motion";
-import { Mail, Linkedin, Github, ArrowUpRight } from "lucide-react";
+import { Mail, Linkedin, ArrowUpRight } from "lucide-react";
 import FadeIn from "./FadeIn";
 
 const Contact = () => {
@@ -50,22 +50,6 @@ const Contact = () => {
               </div>
             </motion.a>
 
-            <motion.a
-              href="https://github.com/alldrops"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-4 p-4 rounded-xl hover:bg-card transition-colors group focus-ring"
-              whileHover={shouldReduceMotion ? {} : { y: -2 }}
-              transition={{ duration: 0.2 }}
-            >
-              <div className="w-12 h-12 rounded-xl bg-secondary flex items-center justify-center group-hover:bg-muted transition-colors">
-                <Github className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors" />
-              </div>
-              <div className="text-left">
-                <p className="font-medium text-foreground">GitHub</p>
-                <p className="text-sm text-muted-foreground">View my code</p>
-              </div>
-            </motion.a>
 
             <motion.a
               href="mailto:andre.22.lopes@gmail.com"

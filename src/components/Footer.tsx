@@ -1,4 +1,4 @@
-import { Linkedin, Github, Mail } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -23,15 +23,6 @@ const Footer = () => {
               aria-label="LinkedIn profile"
             >
               <Linkedin className="w-5 h-5" />
-            </a>
-            <a
-              href="https://github.com/alldrops"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2.5 rounded-full text-muted-foreground hover:text-foreground hover:bg-muted transition-colors focus-ring"
-              aria-label="GitHub profile"
-            >
-              <Github className="w-5 h-5" />
             </a>
             <a
               href="mailto:andre.22.lopes@gmail.com"
